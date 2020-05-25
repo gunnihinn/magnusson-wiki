@@ -1,0 +1,20 @@
+= Pseudo-effective and numerically flat reflexive sheaves
+
+tags::
+* math
+* kahler manifold
+* complex geometry
+* pseudo-effective
+* numerically effective
+* chern classes
+
+One of my math siblings has a https://arxiv.org/abs/2004.14676[paper] out where
+they prove that pseudo-effective bundles over compact Kahler manifolds with zero
+first Chern class are actually numerically effective.
+
+They do this by taking a singular hermitian metric on the canonical line bundle
+of the projective bundle of the vector bundle they care about. If its
+singularities are controlled well enough, they can push powers of that metric
+down, thus getting closed positive currents that represent the Segre classes of
+the bundle. By some hardcore theorems of Demailly, this implies that the bundle
+is nef by taking limits of those currents.
