@@ -1,0 +1,22 @@
+= Zettelkasten
+
+tags::
+* lobste.rs
+* productivity
+* monetization
+* youtube
+* marketing
+
+
+The breathlessly named lobste.rs post
+https://lobste.rs/s/syoikp/zettelkasten_how_one_german_scholar_was[Zettelkasten:
+How One German Scholar Was So Freakishly Productive] answers its own question by
+explaining said German scholar's productivity system. It was a set of ideas on
+index cards, organized by tags, with links between cards. Apparently, given
+enough of these, one can generate new ideas by going on random walks through
+relevant sections of the idea set.
+
+The "Freakishly Productive" part refers to that said German scholar -- Niklas
+Luhmann -- wrote over 70 books and 400 research papers over his life. While
+impressive, one wonders whether this is a case of people raised on content
+monetization valuing quantity over quality.

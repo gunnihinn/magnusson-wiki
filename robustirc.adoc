@@ -1,6 +1,6 @@
 = RobustIRC
 
-tags:
+tags::
 * irc
 * raft
 * ops

@@ -1,0 +1,18 @@
+= This wiki
+
+tags::
+* wiki
+* readme
+
+This wiki is a collection of notes. It's got tags which makes it a kind of
+link:zettelkasten.html[Zettelkasten], I guess.
+
+Each note is an https://asciidoctor.org/docs/asciidoc-writers-guide[Asciidoc]
+document. It's got a description list called "tags" with a bullet list of
+tags. A note can link to other notes as `${filename}.html`.
+
+To generate websites from all of this, run:
+
+----
+make
+----
