@@ -1,0 +1,17 @@
+= RobustIRC
+
+tags:
+* irc
+* raft
+* ops
+* ssl
+* tls
+* dns
+
+I saw https://robustirc.net/[RobustIRC] mentioned today in a Lobste.rs
+https://robustirc.net/[post] by the author of i3. It's IRC over Raft, supposed
+to make it easy to run an IRC network while doing regular ops work on the
+servers. I want to play with this and at least get it to run on localhost,
+probably through Docker compose. It needs an SSL certificate and a DNS record
+for each host in the network, so it's probably worth it to document how to set
+it up.
