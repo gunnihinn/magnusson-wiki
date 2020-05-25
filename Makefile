@@ -6,3 +6,6 @@ build/%.html: %.adoc
 .PHONY: clean
 clean:
 	rm -r build
+
+check:
+	perl src/check-links.pl $(wildcard *.adoc)
