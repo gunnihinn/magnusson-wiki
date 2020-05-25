@@ -1,12 +1,6 @@
 = RobustIRC
 
-tags::
-* irc
-* raft
-* ops
-* ssl
-* tls
-* dns
+:keywords: irc, raft, ops, ssl, tls, dns
 
 I saw https://robustirc.net/[RobustIRC] mentioned today in a Lobste.rs
 https://robustirc.net/[post] by the author of i3. It's IRC over Raft, supposed

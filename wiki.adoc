@@ -1,8 +1,6 @@
 = This wiki
 
-tags::
-* wiki
-* readme
+:keywords: wiki, readme
 
 This wiki is a collection of notes. It's got tags which makes it a kind of
 link:zettelkasten.html[Zettelkasten], I guess.

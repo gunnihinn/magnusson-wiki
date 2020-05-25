@@ -1,11 +1,6 @@
 = Zettelkasten
 
-tags::
-* lobste.rs
-* productivity
-* monetization
-* youtube
-* marketing
+:keywords: lobste.rs, productivity, monetization, youtube, marketing
 
 
 The breathlessly named lobste.rs post
