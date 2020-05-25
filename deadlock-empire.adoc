@@ -1,0 +1,11 @@
+= The deadlock empire
+
+tags::
+* concurrency
+* parallelism
+* distributed systems
+* tla+
+
+https://deadlockempire.github.io/[The deadlock empire] is a game about
+concurrency. I want to play it with TLA+ to practice and to see if its levels
+could be used to hook other people on TLA+.
