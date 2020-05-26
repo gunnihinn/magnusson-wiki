@@ -1,0 +1,18 @@
+= Threat modeling
+
+:keywords: security, programming, heist movies
+
+In a very rare find,
+https://news.ycombinator.com/item?id=23299771[this Hacker News comment] is...
+good?
+
+It argues that threat modeling usually considers some Actors who do Actions to
+Assets and that has Consequences, and the modeling tries to prevent that from
+happening. Then it says that most of these things -- the Actors, Actions and
+Consequences -- are superfluous details and that we should only think about
+Assets.
+
+Very shortly summarized, if we have something that's worth stealing it doesn't
+matter who is stealing it or how they're doing it. You don't have to try to
+defend against Ocean's 11 to realize that you should control access to your
+databases.
