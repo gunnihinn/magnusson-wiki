@@ -1,4 +1,4 @@
-all: $(addprefix build/,$(patsubst %.adoc,%.html,$(wildcard *.adoc)))
+all: $(addprefix build/,$(patsubst %.adoc,%.html,$(wildcard *.adoc))) build/index.html
 
 build/%.html: %.adoc
 	perl src/check-links.pl $<
