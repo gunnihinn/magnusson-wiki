@@ -1,0 +1,19 @@
+= Causal profiling
+
+:keywords: profiling, sqlite, programming, c, go
+
+Causal profiling (reference implementation
+https://github.com/plasma-umass/coz[Coz])
+is based on the idea that to find out the benefits of profiling, it is
+equivalent to speed up a section of a program and to slow down all other
+sections. This https://dl.acm.org/doi/10.1145/2815400.2815409[paper] and
+http://www.youtube.com/watch?v=jE0V-p1odPg&t=0m28s[video] talk about the idea in
+detail and show its use on real programs like sqlite.
+
+The reference implementation is for C. The idea has been ported to some other
+languages:
+
+Go (Daniel Morsing)::
+    - https://morsmachine.dk/causalprof[Causal Profiling for Go]
+    - https://morsmachine.dk/causalprof-update[A Causal Profiling update]
+    - https://morsmachine.dk/http2-causalprof[Using Causal Profiling to Optimize the Go HTTP/2 Server]

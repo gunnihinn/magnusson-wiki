@@ -1,0 +1,10 @@
+= Scalene
+
+:keywords: profiling, python, programming
+
+https://github.com/emeryberger/scalene/[Scalene] is a Python profiler that
+claims to give easier to analyze output than other profilers.
+
+Its author used it in this
+https://lobste.rs/s/r13f85/making_python_programs_blazingly_fast#c_h64ghf[lobste.rs]
+comment.
