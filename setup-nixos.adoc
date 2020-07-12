@@ -1,0 +1,22 @@
+= Setting up NiXOS
+
+:keywords: linux, sysadmin, nixos
+
+. Install NixOS.
+
+. Clone `https://github.com/gunnihinn/nixos` to `$HOME/etc/nixos`.
+
+. Create symlinks:
+
+** `/etc/nixos/configuration.nix -> $HOME/etc/nixos/configuration.nix`
+** `/etc/nixos/hardware-configuration.nix -> $HOME/etc/nixos/hardware-configuration.nix`
+
+. Clone dotfiles `https://github.com/gunnihinn/dotfiles` as a bare repo to `$HOME/.dotfiles`.
+
+. Copy private SSH key to `$HOME/.ssh`.
+
+. Copy encrypted fastmail password to `$HOME/.mail/fastmail-password.gpg`.
+
+. Copy private GPG key to system.
+
+. Run `nixos-rebuild-switch`.
