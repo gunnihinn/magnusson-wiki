@@ -15,8 +15,6 @@
 
 . Copy private SSH key to `$HOME/.ssh`.
 
-. Copy encrypted fastmail password to `$HOME/.mail/fastmail-password.gpg`.
-
 . Copy private GPG key to system.
 
 . Run `nixos-rebuild-switch`.
