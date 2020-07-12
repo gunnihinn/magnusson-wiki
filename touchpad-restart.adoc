@@ -1,0 +1,11 @@
+= Touchpad restart
+
+:keywords: touchpad, broken
+
+When the touchpad doesn't work do this:
+
+----
+xinput --list
+xinput disable $id
+xinput enable $id
+----
