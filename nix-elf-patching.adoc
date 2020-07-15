@@ -1,0 +1,7 @@
+= Patching executables to run on NixOS
+
+:keywords: nixos, nix, elf, executable
+
+If someone hands you an executable from the interwebs and you want to run it on
+NixOS, do https://notes.neeasade.net/adhoc-executable-patching-on-nix.html[this]
+to point it to the right dynamic libraries.
