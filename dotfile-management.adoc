@@ -27,3 +27,14 @@ ____
 
 seems strictly better than using home-manager, as the files it manages are
 read-only which makes iterating on them painful.
+
+To set this up on a fresh computer:
+
+----
+git init --bare $HOME/.dotfiles
+alias config='/etc/profiles/per-user/$(whoami)/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+config config status.showUntrackedFiles no
+config remote add origin https://github.com/gunnihinn/dotfiles.git
+config fetch
+config checkout origin/master -ft
+----
